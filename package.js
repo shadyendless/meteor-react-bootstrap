@@ -66,6 +66,7 @@ Package.onUse(function(api) {
   api.export('ModalFooter', 'client');
   api.export('ModalTitle', 'client');
   api.export('Nav', 'client');
+  api.export('NavBrand', 'client');
   api.export('NavDropdown', 'client');
   api.export('NavItem', 'client');
   api.export('Navbar', 'client');
@@ -96,11 +97,4 @@ Package.onUse(function(api) {
   api.export('Tooltip', 'client');
   api.export('Transition', 'client');
   api.export('Well', 'client');
-});
-
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('shadyendless:react-bootstrap');
-  api.addFiles('react-bootstrap-tests.js');
 });

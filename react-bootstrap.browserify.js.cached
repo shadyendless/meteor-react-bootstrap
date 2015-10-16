@@ -133,6 +133,7 @@ ModalDialog = require('react-bootstrap').ModalDialog;
 ModalFooter = require('react-bootstrap').ModalFooter;
 ModalTitle = require('react-bootstrap').ModalTitle;
 Nav = require('react-bootstrap').Nav;
+NavBrand = require('react-bootstrap').NavBrand;
 NavDropdown = require('react-bootstrap').NavDropdown;
 NavItem = require('react-bootstrap').NavItem;
 Navbar = require('react-bootstrap').Navbar;
